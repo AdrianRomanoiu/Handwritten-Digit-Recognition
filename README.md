@@ -7,3 +7,5 @@ VHDL code for making the neural network described above to work on a Nexys4 DDR 
 Implemented a pyhton program capable to send desired images to the development board using UART methodology and another python program wich
 takes images from the real world and tries to bring them as close as possible to the images from MNIST dataset such that the circuit on the
 development board will clasify thme corectly.
+
+Success rate, approximately 80% for the VHDL implementation.
