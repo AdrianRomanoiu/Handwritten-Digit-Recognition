@@ -8,4 +8,4 @@ Implemented a pyhton program capable to send desired images to the development b
 takes images from the real world and tries to bring them as close as possible to the images from MNIST dataset such that the circuit on the
 development board will clasify thme corectly.
 
-Success rate, approximately 80% for the VHDL implementation.
+Success rate, approximately 80% on the VHDL implementation for 10 000 images different from those on wich the network was trained.
