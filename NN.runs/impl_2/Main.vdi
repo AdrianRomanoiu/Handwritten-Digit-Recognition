@@ -1,0 +1,232 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sat Jan 11 14:54:26 2020
+# Process ID: 20452
+# Current directory: H:/An/NN/NN.runs/impl_2
+# Command line: vivado.exe -log Main.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Main.tcl -notrace
+# Log file: H:/An/NN/NN.runs/impl_2/Main.vdi
+# Journal file: H:/An/NN/NN.runs/impl_2\vivado.jou
+#-----------------------------------------------------------
+source Main.tcl -notrace
+Command: link_design -top Main -part xc7a35tcpg236-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint 'h:/An/NN/NN.srcs/sources_1/ip/floating_point_2/floating_point_2.dcp' for cell 'CMP'
+INFO: [Project 1-454] Reading design checkpoint 'h:/An/NN/NN.srcs/sources_1/ip/floating_point_0/floating_point_0.dcp' for cell 'FP_ADD'
+INFO: [Project 1-454] Reading design checkpoint 'h:/An/NN/NN.srcs/sources_1/ip/floating_point_1/floating_point_1.dcp' for cell 'MUL'
+INFO: [Netlist 29-17] Analyzing 4211 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 5 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
+CRITICAL WARNING: [Common 17-69] Command failed: 'E3' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:7]
+CRITICAL WARNING: [Common 17-69] Command failed: 'J15' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:13]
+CRITICAL WARNING: [Common 17-69] Command failed: 'L16' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:14]
+CRITICAL WARNING: [Common 17-69] Command failed: 'M13' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:15]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R15' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:16]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R17' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:17]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R13' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:20]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T8' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:21]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R16' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:23]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T13' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:24]
+CRITICAL WARNING: [Common 17-69] Command failed: 'H6' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:25]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U12' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:26]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U11' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:27]
+CRITICAL WARNING: [Common 17-69] Command failed: 'V10' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:28]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T10' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:59]
+CRITICAL WARNING: [Common 17-69] Command failed: 'R10' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:60]
+CRITICAL WARNING: [Common 17-69] Command failed: 'K16' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:61]
+CRITICAL WARNING: [Common 17-69] Command failed: 'K13' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:62]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P15' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:63]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T11' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:64]
+CRITICAL WARNING: [Common 17-69] Command failed: 'H15' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:66]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T9' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:70]
+CRITICAL WARNING: [Common 17-69] Command failed: 'J14' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:71]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P14' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:72]
+CRITICAL WARNING: [Common 17-69] Command failed: 'T14' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:73]
+CRITICAL WARNING: [Common 17-69] Command failed: 'U13' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:75]
+CRITICAL WARNING: [Common 17-69] Command failed: 'C4' is not a valid site or package pin name. [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc:217]
+Finished Parsing XDC File [H:/An/NN/NN.srcs/constrs_1/imports/Desktop/Nexys4DDR_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.092 . Memory (MB): peak = 693.801 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 3296 instances were transformed.
+  RAM16X1S => RAM32X1S (RAMS32): 32 instances
+  RAM256X1S => RAM256X1S (MUXF7, MUXF7, MUXF8, RAMS64E, RAMS64E, RAMS64E, RAMS64E): 3168 instances
+  RAM32X1S => RAM32X1S (RAMS32): 64 instances
+  RAM64X1S => RAM64X1S (RAMS64E): 32 instances
+
+10 Infos, 0 Warnings, 27 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 693.801 ; gain = 404.004
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:02 . Memory (MB): peak = 696.457 ; gain = 2.656
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: d273fb3b
+
+Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1273.988 ; gain = 577.531
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 5 inverter(s) to 55 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: a2a0b90d
+
+Time (s): cpu = 00:00:05 ; elapsed = 00:00:04 . Memory (MB): peak = 1367.512 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 59 cells and removed 63 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 145837e76
+
+Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1367.512 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 2389 cells and removed 3839 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1211666a9
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:10 . Memory (MB): peak = 1367.512 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 34 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1211666a9
+
+Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1367.512 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+CRITICAL WARNING: [Opt 31-1017] Shift register, flop remap optimizations have resulted in SRL/LUTM over-utilization. Please review thresholds for remap between SRLs and flops
+Phase 5 Shift Register Optimization | Checksum: f975143b
+
+Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1367.512 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: f975143b
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1367.512 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |              59  |              63  |                                              0  |
+|  Constant propagation         |            2389  |            3839  |                                              0  |
+|  Sweep                        |               0  |              34  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.066 . Memory (MB): peak = 1367.512 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: f975143b
+
+Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1367.512 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: f975143b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.334 . Memory (MB): peak = 1367.512 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: f975143b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1367.512 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.083 . Memory (MB): peak = 1367.512 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: f975143b
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.084 . Memory (MB): peak = 1367.512 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+26 Infos, 0 Warnings, 28 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:52 ; elapsed = 00:00:51 . Memory (MB): peak = 1367.512 ; gain = 673.711
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.082 . Memory (MB): peak = 1367.512 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.119 . Memory (MB): peak = 1367.512 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.134 . Memory (MB): peak = 1367.512 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'H:/An/NN/NN.runs/impl_2/Main_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file Main_drc_opted.rpt -pb Main_drc_opted.pb -rpx Main_drc_opted.rpx
+Command: report_drc -file Main_drc_opted.rpt -pb Main_drc_opted.pb -rpx Main_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file H:/An/NN/NN.runs/impl_2/Main_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 1367.512 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a35t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [DRC REQP-1725] DSP_Abus_sign_bit_alert: FP_ADD/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [DRC REQP-1725] DSP_Abus_sign_bit_alert: FP_ADD_2/U0/i_synth/ADDSUB_OP.ADDSUB/SPEED_OP.DSP.OP/DSP48E1_BODY.ALIGN_ADD/DSP2/DSP: When using the PreAdder and USE_DPORT is TRUE, the A operand should be restricted to 24 bit two's complement (and sign extended) to avoid over/underflow in the pre-add stage.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 2 Advisories
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.079 . Memory (MB): peak = 1367.512 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 890015ba
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.340 . Memory (MB): peak = 1367.512 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.076 . Memory (MB): peak = 1367.512 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus An are not locked:  'An[7]'  'An[5]'  'An[4]'  'An[3]'  'An[2]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus SW are not locked:  'SW[15]'  'SW[14]'  'SW[13]'  'SW[12]'  'SW[11]'  'SW[10]'  'SW[8]'  'SW[7]'  'SW[4]'  'SW[3]'  'SW[2]'  'SW[1]'  'SW[0]' 
+WARNING: [Place 30-87] Partially locked IO Bus is found. Following components of the IO Bus Seg are not locked:  'Seg[7]'  'Seg[5]'  'Seg[4]'  'Seg[3]'  'Seg[2]'  'Seg[1]'  'Seg[0]' 
+ERROR: [Place 30-640] Place Check : This design requires more LUT as Memory cells than are available in the target device. This design requires 12827 of such cell types but only 9600 compatible sites are available in the target device. Please analyze your synthesis results and constraints to ensure the design is mapped to Xilinx primitives as expected. If so, please consider targeting a larger device. Please set tcl parameter "drc.disableLUTOverUtilError" to 1 to change this error to warning.
+ERROR: [Place 30-640] Place Check : This design requires more LUT as Distributed RAM cells than are available in the target device. This design requires 12800 of such cell types but only 9600 compatible sites are available in the target device. Please analyze your synthesis results and constraints to ensure the design is mapped to Xilinx primitives as expected. If so, please consider targeting a larger device. Please set tcl parameter "drc.disableLUTOverUtilError" to 1 to change this error to warning.
+ERROR: [Place 30-640] Place Check : This design requires more RAMS64E cells than are available in the target device. This design requires 12704 of such cell types but only 9600 compatible sites are available in the target device. Please analyze your synthesis results and constraints to ensure the design is mapped to Xilinx primitives as expected. If so, please consider targeting a larger device.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: 656cbdf2
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1367.512 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 656cbdf2
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1367.512 ; gain = 0.000
+ERROR: [Place 30-99] Placer failed with error: 'Implementation Feasibility check failed, Please see the previously displayed individual error or warning messages for more details.'
+Please review all ERROR, CRITICAL WARNING, and WARNING messages during placement to understand the cause for failure.
+Ending Placer Task | Checksum: 656cbdf2
+
+Time (s): cpu = 00:00:13 ; elapsed = 00:00:11 . Memory (MB): peak = 1367.512 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+44 Infos, 3 Warnings, 28 Critical Warnings and 5 Errors encountered.
+place_design failed
+ERROR: [Common 17-69] Command failed: Placer could not place all instances
+INFO: [Common 17-206] Exiting Vivado at Sat Jan 11 14:56:28 2020...
